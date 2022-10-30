@@ -4,7 +4,7 @@
 
 Created a application where you can see live prices of stocks. And featured with options to buy and sell for a particular stock.
 
-- For successfull order, Last Transaction Price from live data should be equal to market ordered file.
+- For successfull order, Last Transaction Price from live data should be equal to market ordered price and ordered volume should be less than or equal to total volume from the live data.
 - For successfull sell, entered volume should be less than or equal to available stock volume of user.
 
 ### Description
