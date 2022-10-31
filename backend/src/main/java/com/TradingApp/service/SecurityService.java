@@ -39,7 +39,7 @@ public class SecurityService {
 
             User.updateUserPortfolio(securityId, securityVolume, StockOperation.BUY_STOCK);
 
-            logger.info("STK_ID : " + securityId + " BUY_PRICE : " + securityPrice + " LTP : " + ltp + "BUY_VOL"
+            logger.info("STK_ID : " + securityId + " BUY_PRICE : " + securityPrice + " LTP : " + ltp + " BUY_VOL : "
                     + securityVolume
                     + " USR_SEC_QTY : " + User.getUserSecurityQuantity(securityId)
                     + " ORDER_STATUS : " + OrderStatus.ORDER_SUCCESS.getOrderStatus());
@@ -47,7 +47,7 @@ public class SecurityService {
             return CompletableFuture.completedFuture(OrderStatus.ORDER_SUCCESS.getOrderStatus());
         }
 
-        logger.info("STK_ID : " + securityId + " BUY_PRICE : " + securityPrice + " LTP : " + ltp + "BUY_VOL"
+        logger.info("STK_ID : " + securityId + " BUY_PRICE : " + securityPrice + " LTP : " + ltp + " BUY_VOL : "
                 + securityVolume
                 + " USR_SEC_QTY: " + User.getUserSecurityQuantity(securityId)
                 + " ORDER_STATUS : " + OrderStatus.ORDER_FAILED.getOrderStatus());
@@ -72,14 +72,14 @@ public class SecurityService {
 
             User.updateUserPortfolio(securityId, securityVolume, StockOperation.SELL_STOCK);
 
-            logger.info("STK_ID : " + securityId + " SELL_PRICE : " + securityPrice + "BUY_VOL" + securityVolume +
+            logger.info(" STK_ID : " + securityId + " SELL_PRICE : " + securityPrice + " BUY_VOL : " + securityVolume +
                     " USR_SEC_QTY : " + User.getUserSecurityQuantity(securityId) +
                     " ORDER_STATUS : " + OrderStatus.SELL_SUCCESS.getOrderStatus());
 
             return CompletableFuture.completedFuture(OrderStatus.SELL_SUCCESS.getOrderStatus());
         }
 
-        logger.info("STK_ID : " + securityId + " BUY_PRICE : " + securityPrice + "BUY_VOL" + securityVolume +
+        logger.info(" STK_ID : " + securityId + " BUY_PRICE : " + securityPrice + " BUY_VOL :" + securityVolume +
                 " USR_SEC_QTY : " + User.getUserSecurityQuantity(securityId) +
                 " ORDER_STATUS : " + OrderStatus.SELL_FAILED.getOrderStatus());
 

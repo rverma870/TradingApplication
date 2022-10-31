@@ -1,0 +1,135 @@
+2022-10-31 16:02:14,119 [INFO] com.TradingApp.TradingApplication [restartedMain] Starting TradingApplication using Java 17.0.2 on RajPc with PID 207004 (/media/raj/0F23139A0F23139A/CODE/Web Devlopment/Projects/TradingApplication/backend/target/classes started by raj in /media/raj/0F23139A0F23139A/CODE/Web Devlopment/Projects/TradingApplication)
+2022-10-31 16:02:14,121 [INFO] com.TradingApp.TradingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-31 16:02:14,458 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 16:02:14,463 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 16:02:19,069 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-31 16:02:19,109 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-31 16:02:19,110 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 16:02:19,271 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-31 16:02:19,273 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4797 ms
+2022-10-31 16:02:20,714 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-31 16:02:20,884 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-31 16:02:20,888 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [restartedMain] Starting...
+2022-10-31 16:02:20,890 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@37d42f1f]]
+2022-10-31 16:02:20,894 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [restartedMain] Started.
+2022-10-31 16:02:20,973 [INFO] com.TradingApp.TradingApplication [restartedMain] Started TradingApplication in 8.676 seconds (JVM running for 12.791)
+2022-10-31 16:02:24,950 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 16:02:24,950 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-31 16:02:24,952 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-10-31 16:02:50,468 [INFO] com.TradingApp.service.SecurityService [poolThread-2] STK_ID : 7671296 BUY_PRICE : 1.83 LTP : 1.82BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:02:53,050 [INFO] com.TradingApp.service.SecurityService [poolThread-3] STK_ID : 7671296 BUY_PRICE : 1.81 LTP : 1.82BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:02:55,013 [INFO] com.TradingApp.service.SecurityService [poolThread-4] STK_ID : 7671296 BUY_PRICE : 1.4 LTP : 1.82BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:02:57,165 [INFO] com.TradingApp.service.SecurityService [poolThread-2] STK_ID : 7671296 BUY_PRICE : 1.81 LTP : 1.82BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:03:01,449 [INFO] com.TradingApp.service.SecurityService [poolThread-3] STK_ID : 7671296 BUY_PRICE : 1.79 LTP : 1.82BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:03:06,218 [INFO] com.TradingApp.service.SecurityService [poolThread-4] STK_ID : 7671296 BUY_PRICE : 1.33 LTP : 1.82BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:03:08,785 [INFO] com.TradingApp.service.SecurityService [poolThread-2] STK_ID : 7671296 BUY_PRICE : 1.81 LTP : 1.83BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:03:11,261 [INFO] com.TradingApp.service.SecurityService [poolThread-3] STK_ID : 7671296 BUY_PRICE : 1.82 LTP : 1.83BUY_VOL25.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:03:13,956 [INFO] com.TradingApp.service.SecurityService [poolThread-4] STK_ID : 7671296 BUY_PRICE : 1.82 LTP : 1.83BUY_VOL55.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:03:16,588 [INFO] com.TradingApp.service.SecurityService [poolThread-2] STK_ID : 2954262 BUY_PRICE : 2.16 LTP : 2.22BUY_VOL55.0 USR_SEC_QTY: 0.0 ORDER_STATUS : Order Failed
+2022-10-31 16:03:20,315 [INFO] com.TradingApp.service.SecurityService [poolThread-3] STK_ID : 7671296 BUY_PRICE : 1.82 LTP : 1.82BUY_VOL45.0 USR_SEC_QTY : 45.0 ORDER_STATUS : Order Success
+2022-10-31 16:03:20,357 [INFO] org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 658], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 14]
+2022-10-31 16:04:49,127 [INFO] com.TradingApp.service.SecurityService [poolThread-4] STK_ID : 7671296 BUY_PRICE : 1.88 LTP : 1.88BUY_VOL25.0 USR_SEC_QTY : 70.0 ORDER_STATUS : Order Success
+2022-10-31 16:05:10,908 [INFO] com.TradingApp.service.SecurityService [poolThread-2] STK_ID : 7671296 SELL_PRICE : 1.9BUY_VOL25.0 USR_SEC_QTY : 45.0 ORDER_STATUS : Sell Success
+2022-10-31 16:05:31,069 [INFO] com.TradingApp.service.SecurityService [poolThread-3] STK_ID : 7671296 BUY_PRICE : 1.89BUY_VOL50.0 USR_SEC_QTY : 45.0 ORDER_STATUS : Sell Failed
+2022-10-31 16:05:38,036 [INFO] com.TradingApp.service.SecurityService [poolThread-4] STK_ID : 7671296 BUY_PRICE : 1.89 LTP : 1.9BUY_VOL50.0 USR_SEC_QTY: 45.0 ORDER_STATUS : Order Failed
+2022-10-31 16:05:40,861 [INFO] com.TradingApp.service.SecurityService [poolThread-2] STK_ID : 7671296 BUY_PRICE : 1.9BUY_VOL50.0 USR_SEC_QTY : 45.0 ORDER_STATUS : Sell Failed
+2022-10-31 16:19:20,420 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-31 16:19:20,445 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [Thread-5] Stopping...
+2022-10-31 16:19:20,452 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [Thread-5] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@37d42f1f]]
+2022-10-31 16:19:20,461 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [Thread-5] Stopped.
+2022-10-31 16:19:20,521 [INFO] org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2022-10-31 16:19:20,524 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 16:19:20,548 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [MessageBroker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-10-31 16:19:20,549 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [MessageBroker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-10-31 16:19:20,550 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [clientOutboundChannel-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-10-31 16:19:20,551 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [clientOutboundChannel-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-10-31 16:19:20,553 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [poolThread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-10-31 16:19:20,554 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [poolThread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-10-31 16:19:20,556 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [poolThread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-10-31 16:19:20,857 [INFO] com.TradingApp.TradingApplication [restartedMain] Starting TradingApplication using Java 17.0.2 on RajPc with PID 207004 (/media/raj/0F23139A0F23139A/CODE/Web Devlopment/Projects/TradingApplication/backend/target/classes started by raj in /media/raj/0F23139A0F23139A/CODE/Web Devlopment/Projects/TradingApplication)
+2022-10-31 16:19:20,858 [INFO] com.TradingApp.TradingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-31 16:19:21,325 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-31 16:19:21,327 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-31 16:19:21,330 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 16:19:21,345 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-31 16:19:21,350 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 479 ms
+2022-10-31 16:19:21,600 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-31 16:19:21,620 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-31 16:19:21,621 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [restartedMain] Starting...
+2022-10-31 16:19:21,622 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3b51a772]]
+2022-10-31 16:19:21,622 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [restartedMain] Started.
+2022-10-31 16:19:21,627 [INFO] com.TradingApp.TradingApplication [restartedMain] Started TradingApplication in 0.886 seconds (JVM running for 1033.445)
+2022-10-31 16:19:21,632 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-31 16:20:19,426 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [SpringApplicationShutdownHook] Stopping...
+2022-10-31 16:20:19,427 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [SpringApplicationShutdownHook] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3b51a772]]
+2022-10-31 16:20:19,428 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [SpringApplicationShutdownHook] Stopped.
